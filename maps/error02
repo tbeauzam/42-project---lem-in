@@ -1,0 +1,13 @@
+45
+##start
+the_start 1 0
+##end
+testDeOuf_end 12 5
+boeuf 50 4
+carotte 2 14
+2 9 0
+3 13 0
+2-testDeOuf_end
+2-3
+3-jexistepas
+the_start-testDeOuf_end

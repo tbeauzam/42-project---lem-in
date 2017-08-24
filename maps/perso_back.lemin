@@ -1,0 +1,18 @@
+13
+##start
+start 2 4
+##end
+end 2 0
+a 2 2
+b 0 2
+c 4 4
+d 5 2
+f 5 0
+end-f
+end-a
+b-a
+a-start
+start-b
+start-c
+c-d
+d-f

@@ -1,0 +1,63 @@
+100
+##start
+START 8 10
+##end
+END 8 6
+A 8 8
+B 4 8
+C 4 10
+D 0 8
+E 8 6
+F 4 12
+G 8 14
+Z 12 12
+H 12 8
+I 12 6
+J 12 4
+K 12 2
+X 8 4
+M 16 10
+N 16 8
+O 16 4
+P 16 0
+Q 12 0
+R 8 0
+Y 4 2
+T 4 6
+U 0 12
+V 8 12
+W 6 9
+D-T
+R-Q
+Q-P
+Y-R
+P-O
+K-X
+K-J
+X-END
+J-I
+T-B
+END-B
+END-A
+I-H
+D-B
+B-A
+C-B
+H-N
+Y-T
+D-C
+A-START
+START-H
+N-M
+C-START
+START-F
+START-V
+START-Z
+START-M
+U-F
+F-G
+Z-G
+N-O
+END-T
+W-START
+W-A
