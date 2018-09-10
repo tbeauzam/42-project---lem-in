@@ -1,7 +1,7 @@
 # [C] Lem-in (42 project)
 
 _Some puzzles are more pleasant to solve when you can visually see the solution. This is the case in this project._
-![Example](https://github.com/tbeauzam/gifs_for_other_projects/blob/master/lemin/lemin_multiple_paths.gif)
+![Example](https://github.com/tbeauzam/42-project---lem-in/blob/master/videos/lemin_multiple_paths.gif)
 
 Lem-in is an algorithmic project where you have to guide ants through an anthill.
 The program must read a text file that contains a certain number of indications to solve the problem.
@@ -141,7 +141,7 @@ The solution is not really pleasant to look at in its initial state. This is why
 ./lem-in < ./maps/diamond | ./visualizer
 ```
 You should see something like this:
-![Example](https://github.com/tbeauzam/gifs_for_other_projects/blob/master/lemin/lemin_diamond.gif)
+![Example](https://github.com/tbeauzam/42-project---lem-in/blob/master/videos/lemin_diamond.gif)
 ##### Legend:
 - on the left, info about the solution:
   - the number of rooms in the puzzle
