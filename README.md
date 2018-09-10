@@ -155,3 +155,7 @@ You should see something like this:
   - the ![#03f015](https://placehold.it/15/03f015/000000?text=+) green-dotted path is the shortest path found
   - the ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) yellow-dotted paths are longer paths
   - highlighted rooms (in white) contain an ant
+  
+Sometimes, the map cannot be displayed. In this case, if the puzzle is still solvable, the visualizer will launch without the view of the maze.  
+*Example with a map that contains 1000 rooms and 3 paths:*
+![Example](https://github.com/tbeauzam/42-project---lem-in/blob/master/videos/lemin_big.gif)
