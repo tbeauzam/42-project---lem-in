@@ -1,7 +1,7 @@
 # [C] Lem-in (42 project)
 
-_Some puzzles are more pleasant to solve when you can visually see the solution. This is the case here._
-![Example](https://raw.githubusercontent.com/tbeauzam/42-project---lem-in/master/gifs/lem-in_simple.gif)
+_Some puzzles are more pleasant to solve when you can visually see the solution. This is the case in this project._
+![Example](https://github.com/tbeauzam/gifs_for_other_projects/blob/master/lemin/lemin_multiple_paths.gif)
 
 Lem-in is an algorithmic project where you have to guide ants through an anthill.
 The program must read a text file that contains a certain number of indications to solve the problem.
@@ -68,7 +68,7 @@ E-G
 F-H
 G-H
 ```
-For this part to be valid, at least one path *must* exist between the starting room and the final room.
+For this part to be valid, at least one path must exist between the starting room and the final room.
 
 
 ### Usage
@@ -132,3 +132,26 @@ Of course, the challenge here is to guide all these ants as efficiently as possi
 
 ##### What if a map is wrong?
 If a map cannot be solved for whatever reason (invalid parameters in file, no link between enter and exit, wrong syntax etc.), the only thing to output is: ```ERROR```. Parsing is an important part of this project and maps should be checked carefully. Parsing is needed to check syntax and validity of the file, and of course to find all the potential paths between the starting room and the final room.
+
+
+### Visualizer
+
+The solution is not really pleasant to look at in its initial state. This is why I made a visualizer. To use it:
+```
+./lem-in < ./maps/diamond | ./visualizer
+```
+You should see something like this:
+![Example](https://github.com/tbeauzam/gifs_for_other_projects/blob/master/lemin/lemin_diamond.gif)
+##### Legend:
+- on the left, info about the solution:
+  - the number of rooms in the puzzle
+  - the number of ants
+  - the number of moves required to solve the puzzle
+  - the list of moves corresponding to the solution (see above). This part can be scrolled with PGUP / PGDN: this will highlight rooms containing an ant on the right part of the visualizer (if the current map is displayed).
+  - the number of paths found, and detailed info about each path
+- on the right, if possible, the current map is displayed:
+  - the ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) blue room is the starting room
+  - the ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) red room is the end of the maze
+  - the ![#03f015](https://placehold.it/15/03f015/000000?text=+) green-dotted path is the shortest path found
+  - the ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) yellow-dotted paths are longer paths
+  - highlighted rooms (in white) contain an ant
